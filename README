@@ -1,21 +1,16 @@
-# Jeu de la vie
-#
-# Alexandre Vahlas  Hugo Youf
-#
-# Voici notre jeu de la vie sur le modèle de celui du professeur.
-#
-# Nous avions pour but de faire rentrer en colision une moto et une voiture et de créer une explosion
-#
-# Pour ça notre jeu de la vie change un petit peu les règles du jeu, uniquement pour que notre idée soit réalisable.
-# Nous avons donc modifié principalement, le "make_conway", "apply_games_of_rules", et "game_of_rules"
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+Jeu de la vie 
+ 
+Alexandre Vahlas  Hugo Youf 
+ 
+Voici notre jeu de la vie sur le modèle de celui du professeur. 
+
+Nous avions pour but de faire rentrer en collision une moto et une voiture et de créer une explosion. 
+
+Pour cela nous avons donc dû “redessiner” la moto et la voiture, en copiant un modèle de “pixel art” sur internet de la moto et de la voiture. 
+
+Nous avons également dû modifier les règles du jeu de la vie pour faire en sorte que la moto et la voiture ne se désintègre, que le jeu de la vie ne se lance 
+pas directement lorsqu’on lance le programme. 
+Nous avons donc modifié : 
+-tout d’abord le “make_conway” pour faire apparaître les figures souhaitées 
+-”apply_games_of_rules” et ”game_of_rules” pour faire en sorte que la voiture et la moto avancent et se percutent et que l’éxplosion apparaisse faisant disparaître
+ les 2 véhicules 
