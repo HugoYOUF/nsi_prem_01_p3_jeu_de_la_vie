@@ -11,6 +11,9 @@ Pour cela nous avons donc dû “redessiner” la moto et la voiture, en copiant
 Nous avons également dû modifier les règles du jeu de la vie pour faire en sorte que la moto et la voiture ne se désintègre, que le jeu de la vie ne se lance 
 pas directement lorsqu’on lance le programme. 
 Nous avons donc modifié : 
--tout d’abord le “make_conway” pour faire apparaître les figures souhaitées 
--”apply_games_of_rules” et ”game_of_rules” pour faire en sorte que la voiture et la moto avancent et se percutent et que l’éxplosion apparaisse faisant disparaître
+-tout d’abord le “make_conway” pour faire apparaître la voiture
+-nous avons crée une fonction "make_scooter" reprennant la fonction "make_conway" qui cette fois ci sert à afficher le scooter
+-”apply_games_of_life_rules” et ”apply_rules” pour faire en sorte que la voiture et la moto avancent et se percutent et que l’éxplosion apparaisse faisant disparaître
  les 2 véhicules 
+ -nous avons également touché à au programme data pour ajouter des couleurs
+ 
